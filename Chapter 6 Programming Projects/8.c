@@ -14,7 +14,7 @@ int main(void) {
   printf("Enter starting day of the week (1=Sun, 7=Sat): ");
   scanf("%d", &starting_days);
   if (starting_days > 7) {
-    printf("\aAn invalid starting day was enterd. Aborting program.");
+    printf("\aAn invalid starting day was entered. Aborting program.");
     return 0;
   }
 
