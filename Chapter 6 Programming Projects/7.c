@@ -1,19 +1,16 @@
-//Prints a table of squares using a method
+//A modified version of square3.c so that the for statement initializes, tests, and increments i
 
 #include <stdio.h>
 
 int main(void) {
-  int i, n, odd, square;
+  int n;
 
   printf("This program prints a table of squares.\n");
   printf("Enter number of entries in table: ");
   scanf("%d", &n);
 
-  i = 1;
-  odd = 3;
-  for (square = 1; i <= n; odd += 2) {
+  for (int i = 1, square = 1, odd = 3; i <= n; odd += 2, ++i) {
     printf("%10d%10d\n", i, square);
-    ++i;
     square += odd;
   }
 
