@@ -11,7 +11,6 @@ int main(void) {
 
   for (i = 1; i <= n; i++) {
     printf("%10d%10d\n", i, i * i);
-    i++;
   }
 
   return 0;
