@@ -1,4 +1,4 @@
-//Displays user-inputted numbers ranging from 1-16 in a 4 by 4 arrangement followed by the sums of teh rows, columns, and diagonals
+//Displays user-inputted numbers ranging from 1-16 in a 4 by 4 arrangement followed by the sums of the rows, columns, and diagonals
 
 #include <stdio.h>
 
