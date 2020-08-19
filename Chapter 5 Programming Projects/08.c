@@ -14,7 +14,7 @@ int main(void) {
   else if (minutes <= HOUR * 9 + 43 + (((11 * HOUR + 19) - (9 * HOUR + 43)) / 2))
     printf("Closest departure time is 9:43 a.m., arriving at 11:52 a.m.");
   else if (minutes <= HOUR * 11 + 19 + (((12 * HOUR + 47) - (11 * HOUR + 19)) / 2))
-    printf("Closest departure time is 11:19 a.m., arriving at 11:31 p.m.");
+    printf("Closest departure time is 11:19 a.m., arriving at 1:31 p.m.");
   else if (minutes <= HOUR * 12 + 47 + (((14 * HOUR) - (12 * HOUR + 47)) / 2))
     printf("Closest departure time is 12:47 p.m., arriving at 3:00 p.m.");
   else if (minutes <= HOUR * 14 + (((15 * HOUR + 45) - (14 * HOUR)) / 2))
