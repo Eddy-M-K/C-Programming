@@ -7,10 +7,10 @@ This repository includes a complete list of all the programming projects I've co
 
 You can find a list of all the the project topics I've done, which correspond to a C file in the repository, below:
 
-##Chapter 1 Programming Projects
+## Chapter 1 Programming Projects
 N/A
 
-##Chapter 2 Programming Projects
+## Chapter 2 Programming Projects
 1.  Displays a checkmark
 2.  Computes the volume of a sphere with a 10-meter radius
 3. \[Chapter 1/2.c v2] Prompts the user to enter the radius of the sphere
@@ -20,7 +20,7 @@ N/A
 7.  Shows how to pay a user-inputted dollar amount using the smallest number of $20, $10, $5, and $1 bills
 8.  Calculates the remaining balance on a loan after the first, second, and third monthly payments
 
-##Chapter 3 Programming Projects
+## Chapter 3 Programming Projects
 1.  Converts a user-inputted *mm/dd/yyyy* date into *yyyymmdd*
 2.  Formats product information entered by the user
 3.  Breaks down an ISBN entered by the user
@@ -28,7 +28,7 @@ N/A
 5.  Displays the numbers 1-16 in a 4 by 4 arrangement according to the user-inputted order followed by the sums of the rows, columns, and diagonals
 6. \[Given Examples/addfrac.c v2] Computes the sum of two user-inputted fractions separated by a '+' sign
 
-##Chapter 4 Programming Projects
+## Chapter 4 Programming Projects
 1.  Prints a two-digit user-inputted number with its digits reversed
 2.  \[Chapter 4/1.c v2] Handles three-digit numbers
 3.  \[Chapter 4/1.c v3] Prints the reversal of a three-digit number without using arithmetic to split the number into digits
@@ -36,7 +36,7 @@ N/A
 5.  \[Given Examples/upc.c v2] Computes the check digit of a user-inputted 11-digit UPC 
 6.  \[Given Examples/upc.c v3] Computes the check digit of a user-inputted 13-digit EAN
 
-##Chapter 5 Programming Projects
+## Chapter 5 Programming Projects
 1.  Calculates how many digits a user-inputted number contains
 2.  Displays a user-inputted 24-hour time in 12-hour form
 3. \[Given Examples/broker.c v2] Asks the user to enter the # of shares and $/share and additionally computes the commission charged by a rival broker 
@@ -49,7 +49,7 @@ N/A
 10. Converts a numerical grade into a letter grade using the ```switch``` statement
 11. Prints the English word of a user-inputted two-digit number
 
-##Chapter 6 Programming Projects
+## Chapter 6 Programming Projects
 1.  Finds the largest in a series of user-inputted numbers
 2.  Calculates and displays the GCD of two integers
 3.  Reduces a user-inputted fraction to lowest terms
