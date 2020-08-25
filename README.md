@@ -80,12 +80,18 @@ N/A
 14. Uses Newton's method to compute the square root of a positive floating-point number
 15. 
   (a) Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  
   (b) Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  
   (c) Uses a ```long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  
   (d) Uses a ```long long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial
+  
   (e) Uses a ```float``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  
   (f) Uses a ```double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
-    (f) Uses a ```long double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
+  
+  (g) Uses a ```long double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
     
 ## Chapter 8 Programming Projects
 1. \[Given Examples/repdigit.c v2] Displays repeated digits in a user-inputted number
@@ -96,7 +102,7 @@ N/A
 6.  Translates a user-inputted message into B1FF language
 7.  Reads a 5 * 5 array of integers and then prints the row sums and the column sums
 8. \[Chapter 8/07.c v2] Prompts for five quiz grades for each of five students, then computes the total score and average score for each student, and then the average score, high score, and low score for each quiz
-9.  Generates a "random walk" of letters A-Z across a 10 * 10 array 
+9.  Generates a "random walk" of letters A-Z across a 10 * 10 array
 10.\[Chapter 5/08.c v3] Departure times are stored in an array and the arrival times are stored in a second array
 11.\[Chapter 7/04.c v2] Lables its output before printing the phone number in numeric form
 12.\[Chapter 7/05.c v2] SCRABBLE values are stored in an array
