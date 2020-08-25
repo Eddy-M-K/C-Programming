@@ -13,10 +13,10 @@ N/A
 ## Chapter 2 Programming Projects
 1.  Displays a checkmark
 2.  Computes the volume of a sphere with a 10-meter radius
-3. \[Chapter 1/2.c v2] Prompts the user to enter the radius of the sphere
+3. \[Chapter 1/02.c v2] Prompts the user to enter the radius of the sphere
 4.  Displays a user-inputted dollar-and-cents amount with 5% tax
 5.  Displays the value of a polynomial using a user-inputted value for *x*
-6. \[Chapter 1/5.c v2] Uses Horner's Rule to evaluate the polynomial faster
+6. \[Chapter 1/05.c v2] Uses Horner's Rule to evaluate the polynomial faster
 7.  Shows how to pay a user-inputted dollar amount using the smallest number of $20, $10, $5, and $1 bills
 8.  Calculates the remaining balance on a loan after the first, second, and third monthly payments
 
@@ -30,8 +30,8 @@ N/A
 
 ## Chapter 4 Programming Projects
 1.  Prints a two-digit user-inputted number with its digits reversed
-2.  \[Chapter 4/1.c v2] Handles three-digit numbers
-3.  \[Chapter 4/1.c v3] Prints the reversal of a three-digit number without using arithmetic to split the number into digits
+2.  \[Chapter 4/01.c v2] Handles three-digit numbers
+3.  \[Chapter 4/01.c v3] Prints the reversal of a three-digit number without using arithmetic to split the number into digits
 4.  Reads an integer entered by the user and displays it in octal (base 8)
 5.  \[Given Examples/upc.c v2] Computes the check digit of a user-inputted 11-digit UPC 
 6.  \[Given Examples/upc.c v3] Computes the check digit of a user-inputted 13-digit EAN
@@ -54,3 +54,54 @@ N/A
 2.  Calculates and displays the GCD of two integers
 3.  Reduces a user-inputted fraction to lowest terms
 4. \[Given Examples/broker.c v3] Uses a loop so that the user can enter more than one trade to calculate the commission on each
+5. \[Chapter 4/01.c v4] Displays a user-inputted number with any number of digits with its digits reversed
+6.  Prints all even squares between 1 and a user-inputted number *n*
+7. \[Given Examples/square.c v2] Uses a ```for``` loop to initalize i, test i, and increment i without using multiplication
+8.  Prints a one-month calendar according to user-inputted # of days in a month and day of the week on which the month begins
+9. \[Chapter 2/08.c v2] Asks user to enter the # of payments and then displays the balance remaining after each of these payments
+10.\[Chapter 5/09.c v2] Determines which of any number of user-inputted dates comes earlier on the calendar
+11. Approximates Euler's number by computing the value of 1 + 1/1! + 1/2! + 1/3! + ... + 1/n! where *n* is an integer entered by the user
+12.\[Chapter 6/11.c v2] Program continues adding terms to compute Euler's number until the current term becomes less than ε, where ε is a small (floating-point) number entered by the user
+
+## Chapter 7 Programming Projects
+1. \[Given Examples/square2.c v2] Experimentation with different ```int``` types to determine the number of bits used to store integer types on my machine
+2. \[Given Examples/square2.c v3] Pauses every 24 squares and uses ```getchar``` to pause until the user presses ```Enter```
+3. \[Given Examples/sum2.c v2] Sums a series of ```double``` values
+4.  Translates an alphabetic phone number into numeric form
+5.  Computes the value of a user-inputted word according to the values of the SCRABBLE Crossword Game
+6.  Prints the values of ```sizeof(int)```, ```sizeof(short)```, ```sizeof(long)```, ```sizeof(float)```, ```sizeof(double)```, ```sizeof(long double)```
+7. \[Chapter 3/06.c v2] Allows the user to add, subtract, multiplie, or divide two fractions
+8. \[Chapter 5/08.c v2] User enters a time using the 12-hour clock which will have the form *hours:minutes* followed by either ```A```, ```P```, ```AM```, or ```PM```, with      either lower-case, upper-case, and white space allowed
+9.  Displays a user-inputted 12-hour time in 24-hour form with input format identical to Chapter 7/08.c
+10. Counts the number of vowels in a user-inputted sentence
+11. Takes a user-inputted first name and last name and displays the last name, a comma, and the first initial, followed by a period
+12. Evaluates a user-inputted expression of any length from left to right which includes the +, -, \*, and / operators
+13. Calculates the average word length for a user-inputted sentence
+14. Uses Newton's method to compute the square root of a positive floating-point number
+15. 
+  (a) Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  (b) Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  (c) Uses a ```long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  (d) Uses a ```long long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial
+  (e) Uses a ```float``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  (f) Uses a ```double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
+    (f) Uses a ```long double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
+    
+## Chapter 8 Programming Projects
+1. \[Given Examples/repdigit.c v2] Displays repeated digits in a user-inputted number
+2. \[Given Examples/repdigit.c v3] Prints a table showing how many times a digit appears in a user-inputted number
+3. \[Given Examples/repdigit.c v4] Allows user to enter more than one number to be tested for repeated digits 
+4. \[Given Examples/reverse.c v2] Uses ```(sizeof(a) / sizeof(a[0]))``` 
+5. \[Given Examples/interest.c v2] Compounds interest monthly instead of annually but with the same, annual output
+6.  Translates a user-inputted message into B1FF language
+7.  Reads a 5 * 5 array of integers and then prints the row sums and the column sums
+8. \[Chapter 8/07.c v2] Prompts for five quiz grades for each of five students, then computes the total score and average score for each student, and then the average score, high score, and low score for each quiz
+9.  Generates a "random walk" of letters A-Z across a 10 * 10 array 
+10.\[Chapter 5/08.c v3] Departure times are stored in an array and the arrival times are stored in a second array
+11.\[Chapter 7/04.c v2] Lables its output before printing the phone number in numeric form
+12.\[Chapter 7/05.c v2] SCRABBLE values are stored in an array
+13.\[Chapter 7/11.c v2] Labels its output before printing last name then first initial
+14. Reverses the words in a sentence
+15. Encryptes a user's message with the Caesar cipher by shifting letters according to a user-inputted number from 1-25
+16. Tests whether two words are anagrams
+17. Prints an *n* * *n* magic square (*n* is determined by user) in which the sums of the rows, columns, and diagonals are all the same 
