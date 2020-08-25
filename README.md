@@ -79,7 +79,7 @@ N/A
 13. Calculates the average word length for a user-inputted sentence
 14. Uses Newton's method to compute the square root of a positive floating-point number
 15. 
-  (a) Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  a. Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
   
   (b) Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
   
