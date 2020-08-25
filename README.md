@@ -1,5 +1,5 @@
-# All-Textbook-Projects
-This repository serves as both storage and as an indicator of my progress as I learn about computer science and low-level programming through the C language. I used K.N. King's *C Programming: A Modern Approach - Second Edition* to learn C and program small projects. 
+# C-Programming
+This repository serves as both file storage and as an indicator of my progress as I learn about computer science and low-level programming through the C language. I used K.N. King's *C Programming: A Modern Approach - Second Edition* to learn C and program small projects. 
 
 This repository includes a complete list of all the programming projects I've completed from *C Programming: A Modern Approach - Second Edition* as well as some small, other projects I've done. These are found under *Other Small Projects.*
 
@@ -79,7 +79,7 @@ N/A
 13. Calculates the average word length for a user-inputted sentence
 14. Uses Newton's method to compute the square root of a positive floating-point number
 15. 
-  a. Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+  (a) Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
   
   (b) Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
   
