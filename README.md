@@ -59,9 +59,9 @@ N/A
 7. \[Given Examples/square.c v2] Uses a ```for``` loop to initalize i, test i, and increment i without using multiplication
 8.  Prints a one-month calendar according to user-inputted # of days in a month and day of the week on which the month begins
 9. \[Chapter 2/08.c v2] Asks user to enter the # of payments and then displays the balance remaining after each of these payments
-10.\[Chapter 5/09.c v2] Determines which of any number of user-inputted dates comes earlier on the calendar
+10. \[Chapter 5/09.c v2] Determines which of any number of user-inputted dates comes earlier on the calendar
 11. Approximates Euler's number by computing the value of 1 + 1/1! + 1/2! + 1/3! + ... + 1/n! where *n* is an integer entered by the user
-12.\[Chapter 6/11.c v2] Program continues adding terms to compute Euler's number until the current term becomes less than ε, where ε is a small (floating-point) number entered by the user
+12. \[Chapter 6/11.c v2] Program continues adding terms to compute Euler's number until the current term becomes less than ε, where ε is a small (floating-point) number entered by the user
 
 ## Chapter 7 Programming Projects
 1. \[Given Examples/square2.c v2] Experimentation with different ```int``` types to determine the number of bits used to store integer types on my machine
