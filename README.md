@@ -103,15 +103,10 @@ N/A
 7.  Reads a 5 * 5 array of integers and then prints the row sums and the column sums
 8. \[Chapter 8/07.c v2] Prompts for five quiz grades for each of five students, then computes the total score and average score for each student, and then the average score, high score, and low score for each quiz
 9.  Generates a "random walk" of letters A-Z across a 10 * 10 array
-
-10.\[Chapter 5/08.c v3] Departure times are stored in an array and the arrival times are stored in a second array
-
-11.\[Chapter 7/04.c v2] Lables its output before printing the phone number in numeric form
-
-12.\[Chapter 7/05.c v2] SCRABBLE values are stored in an array
-
-13.\[Chapter 7/11.c v2] Labels its output before printing last name then first initial
-
+10. \[Chapter 5/08.c v3] Departure times are stored in an array and the arrival times are stored in a second array
+11. \[Chapter 7/04.c v2] Lables its output before printing the phone number in numeric form
+12. \[Chapter 7/05.c v2] SCRABBLE values are stored in an array
+13. \[Chapter 7/11.c v2] Labels its output before printing last name then first initial
 14. Reverses the words in a sentence
 15. Encryptes a user's message with the Caesar cipher by shifting letters according to a user-inputted number from 1-25
 16. Tests whether two words are anagrams
