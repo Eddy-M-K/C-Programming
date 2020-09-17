@@ -5,7 +5,7 @@ This repository includes a complete list of all the programming projects I've co
 
 * Note: The author only provides answers to an extremely limited number of problems so the code I've uploaded is all mine and mine alone. Files under *Given Examples* are C files of completed examples provided in the textbook.
 
-You can find a list of all the the project topics I've done, which correspond to a C file in the repository, below:
+**You can find a list of all the the project topics I've done, which correspond to a C file in the repository, below:**
 
 ## Chapter 1 - Introducing C
 N/A
