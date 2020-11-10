@@ -114,3 +114,9 @@ N/A
 
 ## [Chapter 9 - Functions](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%209%20Programming%20Projects)
 1. Uses a selection sort with recursion to sort a series of integers
+2. \[Chapter 5/05.c v2] Uses a function to compute the amount of income tax
+3. \[Chapter 8/09.c v2] Uses functions to simplify the program
+4. \[Chapter 8/16.c v2] Uses functions to simplify the program
+5. \[Chapter 8/17.c v2] Uses functions to simplify the program
+6. Computes the value of a polynomial
+7. Recursive program that calculates the power function: x^n
