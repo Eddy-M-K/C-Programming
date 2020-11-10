@@ -119,4 +119,4 @@ N/A
 4. \[Chapter 8/16.c v2] Uses functions to simplify the program
 5. \[Chapter 8/17.c v2] Uses functions to simplify the program
 6. Computes the value of a polynomial
-7. Recursive program that calculates the power function: x^n
+7. Recursive program that calculates the power function: x<sup>n</sup>
