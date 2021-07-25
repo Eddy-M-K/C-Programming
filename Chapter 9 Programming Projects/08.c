@@ -8,7 +8,7 @@ int roll_dice(void);
 bool play_game(void);
 
 int main(void) {
-    srand(TIME(NULL));
+    srand(time(NULL));
 
     int wins = 0, losses = 0;
     char response = '\0';
@@ -22,8 +22,12 @@ int main(void) {
             losses++;
         }
         printf("\n\nPlay again? ");
-        scanf("%c", &response);
-    } while (response == 'y' || reponse == 'Y');
+        while ((response = getchar()) == '\n') {
+            ;
+        }
+    } while (response == 'y' || response == 'Y');
+
+    printf("Wins: %d\tLosses: %d", wins, losses);
 
     return 0;
 }
@@ -40,21 +44,21 @@ bool play_game(void) {
     printf("You rolled: %d\n", sum);
     
     if (sum == 7 || sum == 11) {
-        return TRUE;
+        return true;
     } else if (sum == 8 || sum == 12) {
-        return FALSE;
+        return false;
     } else {
         printf("Your point is %d\n", sum);
     } 
 
-    while (TRUE) {
+    while (true) {
         sum = roll_dice();
         printf("You rolled: %d\n", sum);
 
         if (sum == point) {
-            return TRUE;
+            return true;
         } else if (sum == 7) {
-            return FALSE;
+            return false;
         }
     }
 }
