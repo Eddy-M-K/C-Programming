@@ -68,10 +68,8 @@ bool is_full(void) {
 }
 
 void push(char ch) {
-    if (is_full()) 
-        printf("Stack is full!");
-    else
-        contents[top++] = ch;
+    if (is_full()) printf("Stack is full!");
+    else contents[top++] = ch;
 }
 
 char pop(void) {
