@@ -1,3 +1,9 @@
+/******************************************
+ * Modified version of poker.c example    *
+ * in textbook that recognizes a royal    *
+ * flush                                  *
+ *****************************************/
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>

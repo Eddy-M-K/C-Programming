@@ -1,3 +1,9 @@
+/******************************************
+ * Modified version of poker.c example    *
+ * in textbook that recognizes an         *
+ * "ace-low"                              *
+ *****************************************/
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>

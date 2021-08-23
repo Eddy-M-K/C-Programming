@@ -1,3 +1,7 @@
+/**********************************
+ * Detects if a series of         *
+ * brackets are nested properly   *
+ *********************************/
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>

@@ -1,3 +1,9 @@
+/******************************************
+ * Modified version of poker.c example    *
+ * in textbook which uses a singular      *
+ * array for all card storage             *
+ *****************************************/
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
