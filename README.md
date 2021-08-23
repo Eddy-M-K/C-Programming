@@ -120,3 +120,12 @@ N/A
 5. \[Chapter 8/17.c v2] Uses functions to simplify the program
 6. Computes the value of a polynomial
 7. Recursive program that calculates the power function: x<sup>n</sup>
+
+## [Chapter 10 - Program Organization](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%2010%20Programming%20Projects)
+1. Checks if a series of user-inputted parentheses/braces are properly nested using a stack
+2. Modified version of a textbook provided example of a Poker program but without the use of global arrays
+3. Modified version of a textbook provided example of a Poker program but with a singular array for all card storage
+4. Modified version of a textbook provided example of a Poker program but the program now recognizes a "royal flush"
+5. Modified version of a textbook provided example of a Poker program but the program now accepts an "ace-low"
+6. A calculator which uses the Reverse Polish Notation (RPN) system
+7. Takes a user-inputted number and displays it in the seven-segment display style
