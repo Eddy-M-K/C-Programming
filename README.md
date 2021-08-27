@@ -127,5 +127,5 @@ N/A
 3. Modified version of a textbook provided example of a Poker program but with a singular array for all card storage
 4. Modified version of a textbook provided example of a Poker program but the program now recognizes a "royal flush"
 5. Modified version of a textbook provided example of a Poker program but the program now accepts an "ace-low"
-6. A calculator which uses the Reverse Polish Notation (RPN) system
+6. A calculator which uses the Reverse Polish Notation (RPN) system (implemented using a stack)
 7. Takes a user-inputted number and displays it in the seven-segment display style
