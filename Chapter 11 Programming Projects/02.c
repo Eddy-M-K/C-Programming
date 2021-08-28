@@ -3,7 +3,7 @@
  * Project 08.c                       *
  *                                    *
  * Pointers are now used              *
- *************************************/   
+ **************************************/   
 
 #include <stdio.h>
 #include <stdlib.h>

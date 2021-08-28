@@ -2,7 +2,7 @@
  * Modified version of poker.c example    *
  * in textbook that uses pointers         *
  *                                        *
- *****************************************/
+ ******************************************/
 
 #include <stdbool.h>
 #include <stdio.h>
