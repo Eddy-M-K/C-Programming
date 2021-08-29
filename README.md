@@ -129,3 +129,17 @@ N/A
 5. Modified version of a textbook provided example of a Poker program but the program now accepts an "ace-low"
 6. A calculator which uses the Reverse Polish Notation (RPN) system (implemented using a stack)
 7. Takes a user-inputted number and displays it in the seven-segment display style
+
+## [Chapter 11 - Pointers](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%2011%20Programming%20Projects)
+1. \[Chapter 2/07.c v2] Determines the smallest number of bills to pay a dollar amount but with the use of pointers
+2. \[Chapter 5/08.c v3] Finds the flight whose departure time is closed to a desired time but with pointers as parameters
+3. \[Chapter 6/03.c v2] Reduces a fraction to lowest terms but with pointers as parameters
+4. Modified version of Poker program but with pointers
+
+## [Chapter 12 - Pointers and Arrays](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%2012%20Programming%20Projects)
+1. (a) Reverses a user-inputted message
+1. (b) Reverses a user-inputted message but with pointers
+2. (a) Checks if a user-inputted message is a palindrome
+2. (b) Checks if a user-inputted message is a palindrome but with pointers
+3. Modified version of 1. (b) but with array names as pointers
+4. Modified version of 2. (b) but with array names as pointers
