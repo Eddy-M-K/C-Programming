@@ -78,20 +78,13 @@ N/A
 12. Evaluates a user-inputted expression of any length from left to right which includes the +, -, \*, and / operators
 13. Calculates the average word length for a user-inputted sentence
 14. Uses Newton's method to compute the square root of a positive floating-point number
-15. 
-  (a) Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-  
-  (b) Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-  
-  (c) Uses a ```long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-  
-  (d) Uses a ```long long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial
-  
-  (e) Uses a ```float``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-  
-  (f) Uses a ```double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
-  
-  (g) Uses a ```long double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
+15. (a) Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+15. (b) Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+15. (c) Uses a ```long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+15. (d) Uses a ```long long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial
+15. (e) Uses a ```float``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+15. (f) Uses a ```double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
+15. (g) Uses a ```long double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
     
 ## [Chapter 8 - Arrays](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%208%20Programming%20Projects)
 1. \[Given Examples/repdigit.c v2] Displays repeated digits in a user-inputted number
