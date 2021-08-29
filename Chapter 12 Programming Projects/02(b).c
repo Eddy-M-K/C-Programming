@@ -12,17 +12,17 @@
 #define N 100
 
 void prompt(void);
-int read_message(char message[], char *length);
-bool check_palindrome(char message[], int length);
+char *read_message(char *position);
+bool check_palindrome(char *position, char *end);
 
 int main(void) 
 {
   char message[N] = {0};
-  char *length = message;
+  char *position = message, *end = NULL;
 
   prompt();
-  length = read_message(message);
-  if (check_palindrome(message, length)) printf("Palindrome");
+  end = read_message(position);
+  if (check_palindrome(position, end)) printf("Palindrome");
   else printf("Not a palindrome");
 }
 
@@ -31,26 +31,26 @@ void prompt(void)
   printf("Enter a message: ");
 }
 
-int read_message(char message[], char *length)
+char *read_message(char *position)
 {
   char ch = '\0';
+  char *end = position;
 
-  while (length < N) {
-    if (toupper((ch = getchar())) == '\n') {
+  while (end < position + N) {
+    if ((ch = toupper(getchar())) == '\n') {
       break;
     } else if (ch >= 65 && ch <= 90) {
-      message[length] = ch;
-      length++;
+      *end++ = ch;
     }
   }
 
-  return length;
+  return end-1;
 }
 
-bool check_palindrome(char message[], int length)
+bool check_palindrome(char *position, char *end)
 {
-  for (int i = 0, j = length - 1; i < j; i++, j--) {
-    if (message[i] != message[j]) return false;
+  for (; position < end; position++, end--) {
+    if (*position != *end) return false;
   }
 
   return true;
