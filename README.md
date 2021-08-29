@@ -78,13 +78,14 @@ N/A
 12. Evaluates a user-inputted expression of any length from left to right which includes the +, -, \*, and / operators
 13. Calculates the average word length for a user-inputted sentence
 14. Uses Newton's method to compute the square root of a positive floating-point number
-15. (a) Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-15. (b) Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-15. (c) Uses a ```long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-15. (d) Uses a ```long long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial
-15. (e) Uses a ```float``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
-15. (f) Uses a ```double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
-15. (g) Uses a ```long double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
+15. Factorial Experimentation
+    - Uses a ```short``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+    - Uses an ```int``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+    - Uses a ```long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+    - Uses a ```long long``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial
+    - Uses a ```float``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its    factorial
+    - Uses a ```double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
+    - Uses a ```long double``` variable to store the value of a factorial of a user-inputted positive integer; tests for the largest value for which the program correctly prints its factorial 
     
 ## [Chapter 8 - Arrays](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%208%20Programming%20Projects)
 1. \[Given Examples/repdigit.c v2] Displays repeated digits in a user-inputted number
@@ -130,9 +131,11 @@ N/A
 4. Modified version of Poker program but with pointers
 
 ## [Chapter 12 - Pointers and Arrays](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%2012%20Programming%20Projects)
-1. (a) Reverses a user-inputted message
-1. (b) Reverses a user-inputted message but with pointers
-2. (a) Checks if a user-inputted message is a palindrome
-2. (b) Checks if a user-inputted message is a palindrome but with pointers
-3. Modified version of 1. (b) but with array names as pointers
-4. Modified version of 2. (b) but with array names as pointers
+1. Message Reversal: 
+    - Reverses a user-inputted message
+    - Reverses a user-inputted message but with pointers
+2. Palindrome Checker:
+    - Checks if a user-inputted message is a palindrome
+    - Checks if a user-inputted message is a palindrome but with pointers
+3. Modified version of 1b) but with array names as pointers
+4. Modified version of 2b) but with array names as pointers
