@@ -22,8 +22,10 @@ int main(void)
   end = get_message_end(array);
   print_reversal(end, array);
 
+  exit(EXIT_SUCCESS);
 }
 
+// Returns pointer to end of an array containing sentence
 char *get_message_end(char *array) 
 {
   char *end = array, ch = '\0';
@@ -34,6 +36,7 @@ char *get_message_end(char *array)
     ch = getchar();
 
     if ((ch == '.') || (ch == '?') || (ch == '!')) {
+      *end = ch;
       break;
     } else *end = ch;
   } 
@@ -41,20 +44,29 @@ char *get_message_end(char *array)
   return end;
 }
 
+// Prints the reversal of the sentence
 void print_reversal(char *end, char *beginning)
 {
-  char terminator = *end--, ;
+  char terminator = *end--;
 
-  for (; end != beginning; end--) {
-    if (*end == ' ') putchar(*end)
+  for (; end >= beginning; end--) {
+    if (*end == ' ') putchar(*end);
     else {
       char *temp = end;
 
       do {
         --temp;
-      } while (*(temp-1) != ' ' || temp != beginning);
+      } while (*(temp-1) != ' ' && temp != beginning);
 
+      char *print = temp;
+
+      for (; print <= end; print++) {
+        putchar(*print);
+      }
       
+      end = temp;
     }
   }
+
+  putchar(terminator);
 }
