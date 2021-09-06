@@ -38,7 +38,7 @@ int main(void)
       strcat(sentence, "of ");
       strcat(sentence, suit_code[suit]);
 
-      printf("%s\n", sentence);
+      puts(sentence);
     }
   }
 
