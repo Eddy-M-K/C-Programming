@@ -18,8 +18,8 @@ int read_line(char str[], int n);
 int main(void)
 {
   char reminders[MAX_REMIND][MSG_LEN+3];
-  char day_time_str[9], msg_str[MSG_LEN+1], hour_str[3], minute_str[3];
-  int day, i, j, num_remind = 0, hour, minute;
+  char month_day_time_str[20], msg_str[MSG_LEN+1], day_str[3], hour_str[3], minute_str[3];
+  int day, month, i, j, num_remind = 0, hour, minute;
 
   while (true) {
     if (num_remind == MAX_REMIND) {
@@ -27,41 +27,48 @@ int main(void)
       break;
     }
 
-    printf("Enter day, 24h time and reminder: ");
+    printf("Enter month/day, 24h time and reminder: ");
     
-    scanf("%2d", &day);
-    if (day < 0 || day > 31) {
+    scanf("%2d /%2d", &month, &day);
+    if (month < 0 || month > 12) {
       printf("Error\n");
       while (getchar() != '\n');
       continue;
-    } else if (day == 0) break;
-    sprintf(day_time_str, "%2d", day);
-    strcat(day_time_str, " ");
+    } else if (day < 0 || day > 31) {
+      printf("Error\n");
+      while (getchar() != '\n');
+      continue;
+    } else if (month == 0) break;
 
-    scanf("%2d :%2d", &hour, &minute);
+    sprintf(month_day_time_str, "%2d", month);
+    strcat(month_day_time_str, "/");
+    sprintf(day_str, "%2d", day);
+    strcat(month_day_time_str, day_str);
+    strcat(month_day_time_str, "\t");
+
+    scanf("%2d :%2d ", &hour, &minute);
     sprintf(hour_str, "%.2d", hour);
     sprintf(minute_str, "%.2d", minute);
-    strcat(day_time_str, hour_str);
-    strcat(day_time_str, ":");
-    strcat(day_time_str, minute_str);
+    strcat(month_day_time_str, hour_str);
+    strcat(month_day_time_str, ":");
+    strcat(month_day_time_str, minute_str);
+    strcat(month_day_time_str, "\t");
 
     read_line(msg_str, MSG_LEN);
-
     for (i = 0; i < num_remind; i++) {
-      if (strcmp(day_time_str, reminders[i]) < 0) break;
+      if (strcmp(month_day_time_str, reminders[i]) < 0) break;
     }
 
     for (j = num_remind; j > i; j--) {
       strcpy(reminders[j], reminders[j-1]);
     }
 
-    strcpy(reminders[i], day_time_str);
+    strcpy(reminders[i], month_day_time_str);
     strcat(reminders[i], msg_str);
-
     num_remind++;
   }
 
-  printf("\nDay  Time Reminder\n");
+  printf("\nMonth/Day\tTime\t Reminder\n");
   for (i = 0; i < num_remind; i++) {
     printf(" %s\n", reminders[i]);
   }
@@ -76,7 +83,6 @@ int read_line(char str[], int n)
   while ((ch = getchar()) != '\n') {
     if (i < n) str[i++] = ch;
   }
-
   str[i] = '\0';
   return i;
 }
