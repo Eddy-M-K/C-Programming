@@ -29,30 +29,33 @@ int main(void)
 
     printf("Enter month/day, 24h time and reminder: ");
     
-    scanf("%2d /%2d", &month, &day);
+    scanf("%2d", &month);
     if (month < 0 || month > 12) {
-      printf("Error\n");
-      while (getchar() != '\n');
-      continue;
-    } else if (day < 0 || day > 31) {
       printf("Error\n");
       while (getchar() != '\n');
       continue;
     } else if (month == 0) break;
 
-    sprintf(month_day_time_str, "%2d", month);
+    scanf(" /%2d", &day);
+    if (day < 0 || day > 31) {
+      printf("Error\n");
+      while (getchar() != '\n');
+      continue;
+    }
+
+    sprintf(month_day_time_str, "\t%2d", month);
     strcat(month_day_time_str, "/");
-    sprintf(day_str, "%2d", day);
+    sprintf(day_str, "%.2d", day);
     strcat(month_day_time_str, day_str);
     strcat(month_day_time_str, "\t");
 
     scanf("%2d :%2d ", &hour, &minute);
-    sprintf(hour_str, "%.2d", hour);
+    sprintf(hour_str, "\t\t%.2d", hour);
     sprintf(minute_str, "%.2d", minute);
     strcat(month_day_time_str, hour_str);
     strcat(month_day_time_str, ":");
     strcat(month_day_time_str, minute_str);
-    strcat(month_day_time_str, "\t");
+    strcat(month_day_time_str, "\t\t");
 
     read_line(msg_str, MSG_LEN);
     for (i = 0; i < num_remind; i++) {
@@ -66,9 +69,10 @@ int main(void)
     strcpy(reminders[i], month_day_time_str);
     strcat(reminders[i], msg_str);
     num_remind++;
+    printf("Added\n");
   }
 
-  printf("\nMonth/Day\tTime\t Reminder\n");
+  printf("\n\tMonth/Day\t\tTime\t\tReminder\n");
   for (i = 0; i < num_remind; i++) {
     printf(" %s\n", reminders[i]);
   }
