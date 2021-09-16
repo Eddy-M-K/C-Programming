@@ -13,7 +13,7 @@
 
 #define SEN_LEN 100
 
-double compute_average_word_length(const char *_sentence_);
+double compute_average_word_length(const char *sentence);
 
 int main(void)
 {
@@ -30,20 +30,20 @@ int main(void)
   exit(EXIT_SUCCESS);
 }
 
-double compute_average_word_length(const char *_sentence_)
+double compute_average_word_length(const char *sentence)
 {
   double total_char_count = 0;
   double word_count = 0;
 
-  for (; *_sentence_ != '\0'; _sentence_++) {
-    if (isalpha(*_sentence_)) {
+  for (; *sentence != '\0'; sentence++) {
+    if (isalpha(*sentence)) {
       word_count++;
       total_char_count;
-      _sentence_++;
+      sentence++;
 
-      while (*_sentence_ != ' ' && *_sentence_ != '\0') {
+      while (*sentence != ' ' && *sentence != '\0') {
         total_char_count++;
-        _sentence_++;
+        sentence++;
       }
     }
   }
