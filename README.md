@@ -1,9 +1,9 @@
 # C-Programming
-This repository serves as both file storage and as an indicator of my progress as I learn about computer science and low-level programming through the C language. I used K.N. King's *C Programming: A Modern Approach - Second Edition* to learn C and program small projects. 
-
-This repository includes a complete list of all the programming projects I've completed from *C Programming: A Modern Approach - Second Edition* as well as some small, other projects I've done. These are found under *Other Small Projects.*
-
-* Note: The author only provides answers to an extremely limited number of problems so the code I've uploaded is all mine and mine alone. Files under *Given Examples* are C files of completed examples provided in the textbook.
+This repository serves as both file storage and as an indicator of my progress as I learn about computer science and low-level programming through the C language. I used K.N. King's *C Programming: A Modern Approach - Second Edition* to learn C and program small projects. It includes a complete list of all the programming projects I've completed from *C Programming: A Modern Approach - Second Edition* as well as some small, other projects I've done. These are found under *Other Small Projects.*
+<p align="center">
+<img src="https://user-images.githubusercontent.com/39893918/134723443-649cc507-001d-483f-9ae4-5f7e20f66c7b.png" width=200>
+                                                                                                                </p>
+Note: The author only provides answers to an extremely limited number of problems so the code I've uploaded is all mine and mine alone. Files under *Given Examples* are C files of completed examples provided in the textbook.
 
 **You can find a list of all the the project topics I've done, which correspond to a C file in the repository, below:**
 
@@ -139,3 +139,29 @@ N/A
     - Checks if a user-inputted message is a palindrome but with pointers
 3. Modified version of 1b) but with array names as pointers
 4. Modified version of 2b) but with array names as pointers
+5. \[Chapter 8/14.c v2] Uses pointers to reverse a sentence
+6. Uses pointers instead of integers for a quick sort implementation
+7. Uses pointers to find the maximum and minimum of a set of numbers
+
+## [Chapter 13 - Pointers and Arrays](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%2013%20Programming%20Projects)
+1.  Find the smallest and largest in a series of words
+2.  remind.c:
+    - Calendar reminder program but with incorrect date checking
+    - Calendar reminder program but with 24h system and sorting
+    - Calendar reminder program but with a one-year reminder list
+3. Prints the full names of a hand of cards
+4. Reverses command-line arguments
+5. Adds up command-line arguments
+6. Checks if command-line arguments are names of planets without case sensitivity
+7. \[Chapter 5/11.c v2] Prints the full English pronunciation of a number but with pointers to strings instead of a ```switch``` statement
+8. \[Chapter 7/05.c v3] Returns a SCRABBLE value of a string
+9. \[Chapter 7/10.c v2] Reverses a string with pointers
+10. \[Chapter 7/11.c v3] Formats a user-inputted first and last name
+11. \[Chapter 7/13.c v2] Computes the average length of the words in a sentence
+12. \[Chapter 8/14.c v3] Reverses the words in a sentence using a two dimensional array
+13. \[Chapter 8/15.c v2] Caesar cipher but with strings
+14. \[Chapter 8/16.c v3] Checks if two user-inputted strings are anagrams
+15. \[Chapter 10/06.c v2] Returns the RPN expression of a string
+16. \[Chapter 12/01.c v2] Reverses string using pointers
+17. \[Chapter 12/02.c v2] Checks if a message is a palindrome
+18. Reformats a user-inputted date using pointers to strings
