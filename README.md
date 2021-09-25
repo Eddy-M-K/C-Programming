@@ -143,7 +143,7 @@ N/A
 6. Uses pointers instead of integers for a quick sort implementation
 7. Uses pointers to find the maximum and minimum of a set of numbers
 
-## [Chapter 13 - Pointers and Arrays](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%2013%20Programming%20Projects)
+## [Chapter 13 - Strings](https://github.com/Eddy-M-K/C-Programming/tree/master/Chapter%2013%20Programming%20Projects)
 1.  Find the smallest and largest in a series of words
 2.  remind.c:
     - Calendar reminder program but with incorrect date checking
