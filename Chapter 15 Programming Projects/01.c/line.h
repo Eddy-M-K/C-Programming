@@ -16,5 +16,6 @@ void write_line(void);
 
 /* Writes the current line without justification
 If the line is empty, does nothing */
+void flush_line(void);
 
 #endif

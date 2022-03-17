@@ -3,22 +3,22 @@
 
 int read_char(void)
 {
-  int ch = getchar();
+    int ch = getchar();
 
-  if (ch == '\n' || ch == '\t') return ' ';
-  else return ch;
+    if (ch == '\n' || ch == '\t') return ' ';
+    else return ch;
 }
 
 void read_word(char *word, int len)
 {
-  int ch, pos = 0;
+    int ch, pos = 0;
 
-  while ((ch = read_char()) == ' ') ;
+    while ((ch = read_char()) == ' ') ;
 
-  while (ch != ' ' && ch != EOF) {
-    if (pos < len) word[pos++] = ch;
-    ch = read_char();
-  }
+    while (ch != ' ' && ch != EOF) {
+        if (pos < len) word[pos++] = ch;
+        ch = read_char();
+    }
 
-  word[pos] = '\0';
+    word[pos] = '\0';
 }
